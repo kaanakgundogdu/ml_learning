@@ -1,0 +1,14 @@
+# .gitignore
+
+# Virtual Environment
+.mlvenv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files (optional)
+.vscode/
