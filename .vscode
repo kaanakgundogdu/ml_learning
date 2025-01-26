@@ -1,5 +1,0 @@
-{
-    "python.pythonPath": "./venv/bin/python",
-    "jupyter.jupyterServerURI": "http://localhost:8888",
-    "jupyter.kernelSelection": "Python (MLLearning)"
-}
