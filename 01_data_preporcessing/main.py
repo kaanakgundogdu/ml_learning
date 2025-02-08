@@ -40,5 +40,11 @@ print("y_train", y_train)
 print("y_test", y_test)
 
 # Feature scaling
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
 
+x_train[:, 3:] = sc.fit_transform(x_train[:, 3:])
+x_test[:, 3:] = sc.transform(x_test[:, 3:])
 
+print(x_train)
+print(x_test)
