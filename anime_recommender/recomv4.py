@@ -164,6 +164,7 @@ def get_recommendations_latent_v2(title, latent_cosine_sim=latent_cosine_sim_v2)
 
     return pd.Series(recommendations)
 
-latent_recommendations_v2 = get_recommendations_latent_v2('Naruto')
+user_input = input("Please enter anime name (for now case sensitive): ")
+latent_recommendations_v2 = get_recommendations_latent_v2(user_input)
 print("Latent Feature-Based Recommendations (V2 - Sentence Embeddings, Format, Deeper Model):")
 print(latent_recommendations_v2)
